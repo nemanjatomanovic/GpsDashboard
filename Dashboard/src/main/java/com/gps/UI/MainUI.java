@@ -17,12 +17,12 @@ import com.vaadin.ui.UI;
 @SpringView(name=MainUI.VIEW_NAME)
 @Theme("dashboard")
 public class MainUI extends SideMenu implements View{
-
+//test Nemanja
 	private static final long serialVersionUID = 1L;
 	public static final String VIEW_NAME = "mainUI";
-	
+
 	private final VaadinmapsUI vui;
-	
+
 	@Autowired
 	public MainUI(VaadinmapsUI vui){
 		super();
@@ -34,12 +34,12 @@ public class MainUI extends SideMenu implements View{
 					setContent(vui.getForm());
 				}
 			});
-		
-			
+
+
 	}
 	@Override
 	public void enter(ViewChangeEvent event) {
 		// TODO Auto-generated method stub
-		
+
 	}
 }
