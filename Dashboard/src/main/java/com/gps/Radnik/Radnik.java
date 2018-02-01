@@ -35,10 +35,6 @@ public class Radnik implements Serializable {
 	public Radnik(){
 		
 	}
-	
-	
-
-
 	public Radnik(Long id, String ime, String korisnickoime, String lozinka, String prezime) {
 		super();
 		this.id = id;
@@ -48,78 +44,41 @@ public class Radnik implements Serializable {
 		this.prezime = prezime;
 	}
 
-	
-
-
-
 	public Long getId() {
 		return id;
 	}
-
-
-
 
 	public void setId(Long id) {
 		this.id = id;
 	}
 
-
-
-
 	public String getIme() {
 		return ime;
 	}
-
-
-
 
 	public void setIme(String ime) {
 		this.ime = ime;
 	}
 
-
-
-
 	public String getKorisnickoime() {
 		return korisnickoime;
 	}
 
-
-
-
 	public void setKorisnickoime(String korisnickoime) {
 		this.korisnickoime = korisnickoime;
 	}
-
-
-
-
 	public String getLozinka() {
 		return lozinka;
 	}
-
-
-
-
 	public void setLozinka(String lozinka) {
 		this.lozinka = lozinka;
 	}
-
-
-
-
 	public String getPrezime() {
 		return prezime;
 	}
-
-
-
-
 	public void setPrezime(String prezime) {
 		this.prezime = prezime;
 	}
-
-
 
 	@Override
 	public String toString(){
