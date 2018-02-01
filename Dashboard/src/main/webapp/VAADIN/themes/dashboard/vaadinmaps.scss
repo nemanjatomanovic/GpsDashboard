@@ -1,0 +1,27 @@
+@import "../valo/valo.scss";
+
+@mixin vaadinmaps {
+  @include valo;
+
+	.v-window-mywindowstyle .v-window-contents {
+		background: #f8f8cd;
+	}
+
+	.v-window-mywindowstyle .v-window-outerheader {
+		background: #0c2640;
+	} 
+
+	.v-window-mywindowstyle .v-window-header {
+    	font-weight: bold;
+		color: white;
+	}
+	
+	.v-label-mylabelstyle {
+    	color: white;
+    	text-align: center;
+    	background-color: red;	
+    	border-color: white;
+    	font-weight: bold;
+	}
+	
+}
