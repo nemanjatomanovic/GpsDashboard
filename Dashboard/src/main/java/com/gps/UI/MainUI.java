@@ -21,6 +21,7 @@ public class MainUI extends SideMenu implements View{
 	private static final long serialVersionUID = 1L;
 	public static final String VIEW_NAME = "mainUI";
 	//testiranje Nemanja
+	//jos jedno testiranje
 	private final VaadinmapsUI vui;
 
 	@Autowired
