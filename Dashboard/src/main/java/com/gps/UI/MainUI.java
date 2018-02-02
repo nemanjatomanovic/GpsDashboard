@@ -17,7 +17,7 @@ import com.vaadin.ui.UI;
 @SpringView(name=MainUI.VIEW_NAME)
 @Theme("dashboard")
 public class MainUI extends SideMenu implements View{
-
+//test Nemanja
 	private static final long serialVersionUID = 1L;
 	public static final String VIEW_NAME = "mainUI";
 	//testiranje Nemanja
